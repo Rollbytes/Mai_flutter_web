@@ -18,4 +18,4 @@ jobs:
 
       - name: SSH into GCP Instance
         run: |
-          ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null your_username@your_instance_ip 'cd /path/to/your/project && git pull origin main' # 或者你想要的分支
+          ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null kun@35.225.244.96 'cd /data/Mai_flutter_web && git pull origin main' # 或者你想要的分支
