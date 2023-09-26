@@ -14,7 +14,9 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Set up SSH key
-        run: echo "$GCP_SSH_KEY" > ~/.ssh/id_rsa && chmod 600 ~/.ssh/id_rsa
+        run: | 
+        mkdir -p ~/.ssh
+        echo "$GCP_SSH_KEY" > ~/.ssh/id_rsa && chmod 600 ~/.ssh/id_rsa
 
       - name: SSH into GCP Instance
         run: |
