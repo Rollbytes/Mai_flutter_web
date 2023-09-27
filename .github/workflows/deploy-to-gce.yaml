@@ -1,4 +1,4 @@
-name: Pull from GCP
+name: Deploy to GCP
 
 on:
   push:
