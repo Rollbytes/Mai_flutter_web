@@ -16,12 +16,6 @@ jobs:
         with:
             ssh-private-key: ${{ secrets.GCP_SSH_KEY }}  
 
-    #   - name: Set up SSH key
-    #     run: | 
-    #       mkdir -p ~/.ssh
-    #       echo "$GCP_SSH_KEY"
-    #       echo "$GCP_SSH_KEY" > ~/.ssh/id_rsa && chmod 600 ~/.ssh/id_rsa
-    #       cat ~/.ssh/id_rsa
 
       - name: SSH into GCP Instance
         run: |
