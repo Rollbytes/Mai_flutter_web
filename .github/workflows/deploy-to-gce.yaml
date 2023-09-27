@@ -16,14 +16,14 @@ jobs:
         with:
             ssh-private-key: ${{ secrets.GCP_SSH_KEY }}  
 
-      - name: Set up SSH key
-        run: | 
-          mkdir -p ~/.ssh
-          echo "$GCP_SSH_KEY"
-          echo "$GCP_SSH_KEY" > ~/.ssh/id_rsa && chmod 600 ~/.ssh/id_rsa
-          cat ~/.ssh/id_rsa
+    #   - name: Set up SSH key
+    #     run: | 
+    #       mkdir -p ~/.ssh
+    #       echo "$GCP_SSH_KEY"
+    #       echo "$GCP_SSH_KEY" > ~/.ssh/id_rsa && chmod 600 ~/.ssh/id_rsa
+    #       cat ~/.ssh/id_rsa
 
       - name: SSH into GCP Instance
         run: |
           cat ~/.ssh/id_rsa
-          ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null kun@35.225.244.96 'cd /data/Mai_flutter_web && git pull origin main'
+          ssh  -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null kun@35.225.244.96 'cd /data/Mai_flutter_web && git pull origin main'
