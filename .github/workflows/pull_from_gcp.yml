@@ -22,4 +22,5 @@ jobs:
 
       - name: SSH into GCP Instance
         run: |
+          cat ~/.ssh/id_rsa
           ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null kun@35.225.244.96 'cd /data/Mai_flutter_web && git pull origin main'
