@@ -1,0 +1,22 @@
+name: Deploy to GCP
+
+on:
+  push:
+    branches:
+      - production # 或者你使用的主分支名
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+      - uses: webfactory/ssh-agent@v0.7.0
+        with:
+            ssh-private-key: ${{ secrets.GCP_SSH_KEY }}  
+
+
+      - name: SSH into GCP Instance
+        run: |
+          ssh  -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null kun@35.225.244.96 'cd /data/Mai_flutter_web &&git config --global --add safe.directory /data/Mai_flutter_web && git pull origin production'
