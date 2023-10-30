@@ -19,4 +19,4 @@ jobs:
 
       - name: SSH into GCP Instance
         run: |
-          ssh  -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null kun@35.225.244.96 'cd /data/Mai_flutter_web &&git config --global --add safe.directory /data/Mai_flutter_web && git fetch && git reset --hard origin/production'
+          ssh  -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null kun@34.80.160.160 'cd /data/Mai_flutter_web &&git config --global --add safe.directory /data/Mai_flutter_web && git fetch && git reset --hard origin/production'
