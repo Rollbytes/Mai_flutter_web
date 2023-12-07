@@ -1,0 +1,50 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/wangtseyuan/Desktop/flutter_mai/build/ios/Release-iphoneos/md5_file_checksum/md5_file_checksum.framework/md5_file_checksum'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x5B5C6, size: 0x8, addend: 0x0, symName: _md5_file_checksumVersionString, symObjAddr: 0x0, symBinAddr: 0x8610, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x5B5FB, size: 0x8, addend: 0x0, symName: _md5_file_checksumVersionNumber, symObjAddr: 0x30, symBinAddr: 0x8640, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x5B638, size: 0x8, addend: 0x0, symName: '+[Md5FileChecksumPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
+  - { offsetInCU: 0xA0, offset: 0x5B6B1, size: 0x8, addend: 0x0, symName: '+[Md5FileChecksumPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
+  - { offsetInCU: 0x27, offset: 0x5B745, size: 0x8, addend: 0x0, symName: '-[Md5FileChecksumApiCodecReaderWriter writerWithData:]', symObjAddr: 0x0, symBinAddr: 0x400C, symSize: 0x4C }
+  - { offsetInCU: 0x35, offset: 0x5B753, size: 0x8, addend: 0x0, symName: _Md5FileChecksumApiGetCodec, symObjAddr: 0x98, symBinAddr: 0x40A4, symSize: 0x40 }
+  - { offsetInCU: 0x5B, offset: 0x5B779, size: 0x8, addend: 0x0, symName: _Md5FileChecksumApiGetCodec.s_pred, symObjAddr: 0x3118, symBinAddr: 0xE4A0, symSize: 0x0 }
+  - { offsetInCU: 0x71, offset: 0x5B78F, size: 0x8, addend: 0x0, symName: _Md5FileChecksumApiGetCodec.s_sharedObject, symObjAddr: 0x3120, symBinAddr: 0xE4A8, symSize: 0x0 }
+  - { offsetInCU: 0xC9, offset: 0x5B7E7, size: 0x8, addend: 0x0, symName: '-[Md5FileChecksumApiCodecReaderWriter writerWithData:]', symObjAddr: 0x0, symBinAddr: 0x400C, symSize: 0x4C }
+  - { offsetInCU: 0x10C, offset: 0x5B82A, size: 0x8, addend: 0x0, symName: '-[Md5FileChecksumApiCodecReaderWriter readerWithData:]', symObjAddr: 0x4C, symBinAddr: 0x4058, symSize: 0x4C }
+  - { offsetInCU: 0x19F, offset: 0x5B8BD, size: 0x8, addend: 0x0, symName: ___Md5FileChecksumApiGetCodec_block_invoke, symObjAddr: 0xD8, symBinAddr: 0x40E4, symSize: 0x5C }
+  - { offsetInCU: 0x1E5, offset: 0x5B903, size: 0x8, addend: 0x0, symName: _Md5FileChecksumApiSetup, symObjAddr: 0x134, symBinAddr: 0x4140, symSize: 0x108 }
+  - { offsetInCU: 0x2AE, offset: 0x5B9CC, size: 0x8, addend: 0x0, symName: ___Md5FileChecksumApiSetup_block_invoke, symObjAddr: 0x23C, symBinAddr: 0x4248, symSize: 0x324 }
+  - { offsetInCU: 0x399, offset: 0x5BAB7, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x560, symBinAddr: 0x456C, symSize: 0x8 }
+  - { offsetInCU: 0x3C0, offset: 0x5BADE, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x568, symBinAddr: 0x4574, symSize: 0x8 }
+  - { offsetInCU: 0x2B, offset: 0x5BC99, size: 0x8, addend: 0x0, symName: '_$s17md5_file_checksum21getMd5FileChecksumNew33_8C6068D04056736AC95F649D18021EE5LL0B010Foundation4DataVSgSo12NSFileHandleC_tF', symObjAddr: 0x0, symBinAddr: 0x457C, symSize: 0x3D8 }
+  - { offsetInCU: 0x9D, offset: 0x5BD0B, size: 0x8, addend: 0x0, symName: '_$s17md5_file_checksum21getMd5FileChecksumNew33_8C6068D04056736AC95F649D18021EE5LL0B010Foundation4DataVSgSo12NSFileHandleC_tF', symObjAddr: 0x0, symBinAddr: 0x457C, symSize: 0x3D8 }
+  - { offsetInCU: 0x328, offset: 0x5BF96, size: 0x8, addend: 0x0, symName: '_$s17md5_file_checksum21getMd5FileChecksumOld33_8C6068D04056736AC95F649D18021EE5LL0B010Foundation4DataVSgSo12NSFileHandleC_tF', symObjAddr: 0x3E8, symBinAddr: 0x4964, symSize: 0x320 }
+  - { offsetInCU: 0x80B, offset: 0x5C479, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0x718, symBinAddr: 0x4C94, symSize: 0x44 }
+  - { offsetInCU: 0x81F, offset: 0x5C48D, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x75C, symBinAddr: 0x4CD8, symSize: 0x40 }
+  - { offsetInCU: 0x833, offset: 0x5C4A1, size: 0x8, addend: 0x0, symName: '_$sSays5UInt8VGSayxG10Foundation15ContiguousBytesAeBRszlWl', symObjAddr: 0x79C, symBinAddr: 0x4D18, symSize: 0x48 }
+  - { offsetInCU: 0x847, offset: 0x5C4B5, size: 0x8, addend: 0x0, symName: '_$sSays5UInt8VGMa', symObjAddr: 0x7E4, symBinAddr: 0x4D60, symSize: 0x54 }
+  - { offsetInCU: 0x85B, offset: 0x5C4C9, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_1, symObjAddr: 0x838, symBinAddr: 0x4DB4, symSize: 0x24 }
+  - { offsetInCU: 0x89B, offset: 0x5C509, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVyACxcSTRzs5UInt8V7ElementRtzlufcAC15_RepresentationOSWXEfU_', symObjAddr: 0x85C, symBinAddr: 0x4DD8, symSize: 0x74 }
+  - { offsetInCU: 0x927, offset: 0x5C595, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV06InlineB0VyAESWcfCTf4nd_n', symObjAddr: 0x8D0, symBinAddr: 0x4E4C, symSize: 0xC4 }
+  - { offsetInCU: 0x99D, offset: 0x5C60B, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV10LargeSliceVyAESWcfCTf4nd_n', symObjAddr: 0x994, symBinAddr: 0x4F10, symSize: 0x78 }
+  - { offsetInCU: 0x9CA, offset: 0x5C638, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV11InlineSliceVyAESWcfCTf4nd_n', symObjAddr: 0xA0C, symBinAddr: 0x4F88, symSize: 0x80 }
+  - { offsetInCU: 0xA1F, offset: 0x5C68D, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOyAESWcfCTf4nd_n', symObjAddr: 0xA8C, symBinAddr: 0x5008, symSize: 0x68 }
+  - { offsetInCU: 0xA70, offset: 0x5C6DE, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_1, symObjAddr: 0xAF4, symBinAddr: 0x5070, symSize: 0x20 }
+  - { offsetInCU: 0xA84, offset: 0x5C6F2, size: 0x8, addend: 0x0, symName: ___swift_allocate_boxed_opaque_existential_1, symObjAddr: 0xB14, symBinAddr: 0x5090, symSize: 0x3C }
+  - { offsetInCU: 0xA98, offset: 0x5C706, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOy', symObjAddr: 0xB50, symBinAddr: 0x50CC, symSize: 0x50 }
+  - { offsetInCU: 0x27, offset: 0x5C993, size: 0x8, addend: 0x0, symName: '_$sSo12NSFileHandleC14forReadingFromAB10Foundation3URLV_tKcfCTO', symObjAddr: 0x0, symBinAddr: 0x515C, symSize: 0x124 }
+  - { offsetInCU: 0x5C, offset: 0x5C9C8, size: 0x8, addend: 0x0, symName: '_$s17md5_file_checksum26SwiftMd5FileChecksumPluginC8register4withySo07FlutterH9Registrar_p_tFZ', symObjAddr: 0x124, symBinAddr: 0x5280, symSize: 0x60 }
+  - { offsetInCU: 0xC4, offset: 0x5CA30, size: 0x8, addend: 0x0, symName: '_$s17md5_file_checksum26SwiftMd5FileChecksumPluginCACycfC', symObjAddr: 0x184, symBinAddr: 0x52E0, symSize: 0x20 }
+  - { offsetInCU: 0x13E, offset: 0x5CAAA, size: 0x8, addend: 0x0, symName: '_$s17md5_file_checksum26SwiftMd5FileChecksumPluginC8register4withySo07FlutterH9Registrar_p_tFZTo', symObjAddr: 0x1C4, symBinAddr: 0x5320, symSize: 0x80 }
+  - { offsetInCU: 0x1BC, offset: 0x5CB28, size: 0x8, addend: 0x0, symName: '_$s17md5_file_checksum26SwiftMd5FileChecksumPluginC03getfgF4Path_5errorSSSgSS_SAySo12FlutterErrorCSgGtF', symObjAddr: 0x244, symBinAddr: 0x53A0, symSize: 0x4 }
+  - { offsetInCU: 0x1DF, offset: 0x5CB4B, size: 0x8, addend: 0x0, symName: '_$s17md5_file_checksum26SwiftMd5FileChecksumPluginC03getfgF4Path_5errorSSSgSS_SAySo12FlutterErrorCSgGtFTo', symObjAddr: 0x248, symBinAddr: 0x53A4, symSize: 0x9C }
+  - { offsetInCU: 0x211, offset: 0x5CB7D, size: 0x8, addend: 0x0, symName: '_$s17md5_file_checksum26SwiftMd5FileChecksumPluginCACycfc', symObjAddr: 0x2E4, symBinAddr: 0x5440, symSize: 0x30 }
+  - { offsetInCU: 0x24C, offset: 0x5CBB8, size: 0x8, addend: 0x0, symName: '_$s17md5_file_checksum26SwiftMd5FileChecksumPluginCACycfcTo', symObjAddr: 0x314, symBinAddr: 0x5470, symSize: 0x3C }
+  - { offsetInCU: 0x287, offset: 0x5CBF3, size: 0x8, addend: 0x0, symName: '_$s17md5_file_checksum26SwiftMd5FileChecksumPluginCfD', symObjAddr: 0x350, symBinAddr: 0x54AC, symSize: 0x30 }
+  - { offsetInCU: 0x2B4, offset: 0x5CC20, size: 0x8, addend: 0x0, symName: '_$s17md5_file_checksum26SwiftMd5FileChecksumPluginC03getfgF4Path_5errorSSSgSS_SAySo12FlutterErrorCSgGtFTf4nnd_n', symObjAddr: 0x380, symBinAddr: 0x54DC, symSize: 0x288 }
+  - { offsetInCU: 0x35C, offset: 0x5CCC8, size: 0x8, addend: 0x0, symName: '_$s17md5_file_checksum26SwiftMd5FileChecksumPluginCMa', symObjAddr: 0x1A4, symBinAddr: 0x5300, symSize: 0x20 }
+  - { offsetInCU: 0x3AE, offset: 0x5CD1A, size: 0x8, addend: 0x0, symName: '_$sSo12NSFileHandleCMa', symObjAddr: 0x608, symBinAddr: 0x5764, symSize: 0x3C }
+  - { offsetInCU: 0x3C2, offset: 0x5CD2E, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVSgWOe', symObjAddr: 0x644, symBinAddr: 0x57A0, symSize: 0x14 }
+  - { offsetInCU: 0x4F8, offset: 0x5CE64, size: 0x8, addend: 0x0, symName: '_$sSo12NSFileHandleC14forReadingFromAB10Foundation3URLV_tKcfCTO', symObjAddr: 0x0, symBinAddr: 0x515C, symSize: 0x124 }
+...
