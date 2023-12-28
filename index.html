@@ -32,7 +32,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "64224975";
+    const serviceWorkerVersion = "2919711413";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer=""></script>
@@ -48,18 +48,24 @@
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
+      let loading = document.querySelector('#loading');
+      loading.textContent = "Loading entrypoint...";
       _flutter.loader.loadEntrypoint({
         serviceWorker: {
           serviceWorkerVersion: serviceWorkerVersion,
         },
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
-            appRunner.runApp();
-          });
+        onEntrypointLoaded: async function (engineInitializer) {
+          loading.textContent = "Initializing engine...";
+          let appRunner = await engineInitializer.initializeEngine()
+          loading.textContent = "Running app...";
+          await appRunner.runApp();
+        // .then(function(appRunner) {
+        //   loading.textContent = "Running app...";
+        //   appRunner.runApp();
+        // });
         }
       });
     });
   </script>
-
-
+  <p id="loading"></p>
 </body></html>
