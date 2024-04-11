@@ -36342,6 +36342,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
 linked_scroll_controller
+scrollable_positioned_list
 visibility_detector
 
 Copyright 2018 the Dart project authors, Inc. All rights reserved.
@@ -40104,6 +40105,7 @@ May you find forgiveness for yourself and forgive others
 May you share freely, never taking more than you give.
 --------------------------------------------------------------------------------
 sqlite3
+sqlite3_flutter_libs
 
 MIT License
 
