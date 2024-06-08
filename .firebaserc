@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "maitoday-168-dev"
+  },
+  "targets": {
+    "maitoday-168": {
+      "hosting": {
+        "production": [
+          "production-c4f1c"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
