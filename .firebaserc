@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "maitoday-168-dev"
+  },
+  "targets": {
+    "maitoday-168-dev": {
+      "hosting": {
+        "staging": [
+          "staging-e6b26"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
